@@ -15,7 +15,7 @@ Database: MongoDB (via Mongoose)
 
 ## Clone This Repo:
 
-git clone https://github.com/YourUsername/habit-tracker.git  
+git clone https://github.com/prachetas2003/habit-tracker.git  
 cd habit-tracker 
 
 ### Set Up the Server:
