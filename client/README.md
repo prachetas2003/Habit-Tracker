@@ -11,7 +11,7 @@ Frontend: React, React Router, Chart.js
 Backend: Node.js, Express.js
 Database: MongoDB (via Mongoose)
 Styling: Custom CSS with color variables and responsive design
-##Getting Started
+## Getting Started
 
 ## Clone This Repo:
 
