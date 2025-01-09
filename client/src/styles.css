@@ -1,0 +1,103 @@
+/* src/styles.css */
+
+/* ========== COLOR THEME ========== */
+:root {
+  --primary-color: #4caf50;      /* A pleasant green */
+  --primary-dark: #388e3c;
+  --accent-color: #ffca28;       /* Accent: a warm yellow */
+  --neutral-bg: #302c2c;         /* Light gray background */
+  --dark: #333;                  /* Dark text color */
+  --text-light: #ffffff;         /* White text */
+  --border-radius: 8px;          /* Rounded corners */
+}
+
+/* ========== GLOBAL RESETS ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--neutral-bg);
+  color: var(--dark);
+  line-height: 1.5;
+}
+
+/* ========== LAYOUT HELPERS ========== */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+/* ========== HEADINGS ========== */
+h1, h2, h3, h4, h5 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* ========== FORMS & INPUTS ========== */
+input, textarea {
+  width: 100%;
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 500;
+}
+
+/* ========== BUTTONS ========== */
+.btn {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  border: none;
+  border-radius: var(--border-radius);
+  padding: 0.7rem 1.2rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--primary-dark);
+}
+
+/* ========== LINKS ========== */
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ========== CARD STYLES ========== */
+.card {
+  background-color: #fff;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* ========== CHART CONTAINER ========== */
+.chart-container {
+  margin-top: 2rem;
+  text-align: center;
+}
